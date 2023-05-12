@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <section class="container">
-        <div class="logo">
-            <img src="image/kbb-letter-logo-design-on-white-backgroundkbb-vector-41990363 (2).png" alt="" />
-        </div>
+       
         <h1 id="header" class="header">To-Do App</h1>
 
         <form class="new-task-container box">
@@ -21,7 +17,7 @@
             <input type="text" id="new-task" />
             <input type="submit" id="addTask" value="Add Task" />
         </form>
-        <!--/TODO-list-->
+       
         <div class="todo-list box">
             <h2>Incomplete Tasks</h2>
             <ul id="items">
@@ -34,19 +30,31 @@
                 <li class="item">
                     <input type="checkbox" /><label>Task Name</label>
                 </li>
+                <li class="item">
+                    <input type="checkbox" /><label>Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" /><label>Task Name</label>
+                </li>
             </ul>
         </div>
-
-        <!--/complete-list-->
         <div class="complete-list box">
-            <h2>Completed Tasks</h2>
+            <h2>Here is the Completed Tasks</h2>
             <ul>
-                <li class="item">Task Name <button class="delete">Delete</button></li>
+                <li class="item">* Task Name  <button class="delete">Delete</button></li>
             </ul>
         </div>
-
+        <div>
+            <footer>
+               <div>
+                <p>Author: Hege Refsnes<br>
+                    <a href="mailto:hege@example.com">hege@example.com</a></p>
+               </div>
+              </footer>
+        </div>
+        
     </section>
-
+    
     <script src="Script.js"></script>
 </body>
 
